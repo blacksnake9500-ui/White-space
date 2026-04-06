@@ -641,7 +641,7 @@ header {
     justify-content: space-between;
     .card {
       width: 600px;
-      img{
+      img {
         width: 100%;
       }
       h1 {
@@ -650,22 +650,22 @@ header {
           text-shadow: 10px 10px 1px #ffe492;
         }
       }
-      p{
+      p {
         padding: 20px 0px;
         line-height: 25px;
       }
-      button{
+      button {
         padding: 10px 20px;
         border: none;
         border-radius: 5px;
         background-color: #4f9cf9;
         color: white;
-        transition: all .3s ease;
+        transition: all 0.3s ease;
         cursor: pointer;
-        &:hover{
+        &:hover {
           transform: scale(1.1);
         }
-        &:active{
+        &:active {
           transform: scale(0.9);
         }
       }
@@ -673,17 +673,17 @@ header {
   }
 }
 
-.s8{
-  .container{
+.s8 {
+  .container {
     padding: 50px 0px;
-    h1{
+    h1 {
       font-size: 50px;
       text-align: center;
-      span{
+      span {
         text-shadow: 10px 10px 3px #ffe492;
       }
     }
-    ul{
+    ul {
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -692,86 +692,86 @@ header {
   }
 }
 
-.s9{
+.s9 {
   background-color: #043873;
-  .container{
+  .container {
     padding: 50px 0px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    .card{
+    .card {
       width: 500px;
       color: white;
-      h1{
+      h1 {
         font-size: 50px;
       }
-      p{
+      p {
         padding: 20px 0px;
         line-height: 25px;
       }
-      button{
+      button {
         padding: 10px 20px;
         border: none;
         border-radius: 5px;
         background-color: #4f9cf9;
         color: white;
-        transition: all .3s ease;
+        transition: all 0.3s ease;
         cursor: pointer;
-        &:hover{
+        &:hover {
           transform: scale(1.1);
         }
-        &:active{
+        &:active {
           transform: scale(0.9);
         }
       }
-      img{
+      img {
         width: 100%;
       }
     }
   }
 }
 
-.s10{
-  .container{
+.s10 {
+  .container {
     padding: 50px 0px;
-    .title{
+    .title {
       text-align: center;
       padding: 30px 0px;
-      h1{
+      h1 {
         font-size: 50px;
-        span{
+        span {
           text-shadow: 10px 10px 3px #ffe492;
         }
       }
     }
 
-    .box{
+    .box {
       display: flex;
       align-items: center;
       justify-content: space-between;
       gap: 30px;
-      .card{
+      .card {
         width: 430px;
         box-shadow: 0px 0px 5px;
         border-radius: 10px;
         padding: 20px;
         color: #043873;
         cursor: pointer;
-        transition: all .3s ease;
-        &:hover{
+        transition: all 0.3s ease;
+        &:hover {
           transform: scale(1.02);
           background-color: #4f9cf9;
           color: white;
         }
-        h1{
+        h1 {
           font-size: 80px;
           padding-bottom: 20px;
         }
-        p{
+        p {
           padding: 20px 0px;
           line-height: 25px;
         }
-        img{
+        img {
           padding: 20px 0px;
         }
       }
@@ -779,44 +779,97 @@ header {
   }
 }
 
-.s11{
+.s11 {
   background-color: #043873;
-  .container{
+  .container {
     padding: 50px 0px;
     display: flex;
     align-items: center;
     justify-content: center;
-    .card{
+    .card {
       width: 500px;
       text-align: center;
       padding: 20px;
       color: white;
-      h1{
+      h1 {
         font-size: 50px;
         padding: 10px 0px;
       }
-      p{
+      p {
         padding: 10px 0px;
       }
-      button{
+      button {
         padding: 10px 20px;
         border: none;
         background-color: #4f9cf9;
         color: white;
         border-radius: 5px;
         cursor: pointer;
-        transition: all .3s ease;
-        &:hover{
+        transition: all 0.3s ease;
+        &:hover {
           transform: scale(1.1);
         }
-        &:active{
+        &:active {
           transform: scale(0.9);
         }
       }
-      .app{
+      .app {
         padding: 20px 0px;
-        i{
+        i {
           font-size: 40px;
+        }
+      }
+    }
+  }
+}
+
+footer {
+  background-color: #043873;
+  .container {
+    padding: 50px 0px;
+    color: white;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 40px;
+    ul {
+      width: 300px;
+      line-height: 30px;
+      li {
+        position: relative;
+        cursor: pointer;
+        &::after{
+          content: "";
+          position: absolute;
+          transition: all .3s ease;
+          background-color: white;
+          left: 50%;
+          transform: translate(-50%);
+          width: 0;
+          height: 2px;
+          bottom: -5px;
+        }
+        &:hover::after{
+          width: 100%;
+        }
+        h3 {
+          padding-bottom: 20px;
+        }
+        button{
+          padding: 10px 20px;
+          border: none;
+          border-radius: 5px;
+          background-color: #4f9cf9;
+          color: white;
+          transition: all .3s ease;
+          cursor: pointer;
+          margin-top: 20px;
+          &:hover{
+            transform: scale(1.1);
+          }
+          &:active{
+            transform: scale(0.9);
+          }
         }
       }
     }

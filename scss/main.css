@@ -779,4 +779,57 @@ header .hero .container .card:nth-of-type(2) .backk img {
 }
 .s11 .container .card .app i {
   font-size: 40px;
+}
+
+footer {
+  background-color: #043873;
+}
+footer .container {
+  padding: 50px 0px;
+  color: white;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 40px;
+}
+footer .container ul {
+  width: 300px;
+  line-height: 30px;
+}
+footer .container ul li {
+  position: relative;
+  cursor: pointer;
+}
+footer .container ul li::after {
+  content: "";
+  position: absolute;
+  transition: all 0.3s ease;
+  background-color: white;
+  left: 50%;
+  transform: translate(-50%);
+  width: 0;
+  height: 2px;
+  bottom: -5px;
+}
+footer .container ul li:hover::after {
+  width: 100%;
+}
+footer .container ul li h3 {
+  padding-bottom: 20px;
+}
+footer .container ul li button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4f9cf9;
+  color: white;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  margin-top: 20px;
+}
+footer .container ul li button:hover {
+  transform: scale(1.1);
+}
+footer .container ul li button:active {
+  transform: scale(0.9);
 }/*# sourceMappingURL=main.css.map */
