@@ -182,7 +182,7 @@ header .hero .container .card:nth-of-type(2) img {
      object-fit: contain;
   border-radius: 10px;
 }
-header .hero .container .card:nth-of-type(2) .backk {
+header .hero .container .card:nth-of-type(2) #backk {
   width: 450px;
   height: 324px;
   position: absolute;
@@ -190,7 +190,7 @@ header .hero .container .card:nth-of-type(2) .backk {
   background-color: white;
   cursor: pointer;
 }
-header .hero .container .card:nth-of-type(2) .backk img {
+header .hero .container .card:nth-of-type(2) #backk img {
   width: 100%;
   height: 100%;
   -o-object-fit: contain;

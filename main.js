@@ -21,12 +21,16 @@ let btnn = document.getElementById("btnn");
 let backk = document.getElementById("backk");
 
 btnn.addEventListener("click", () => {
-  if (backk.style.display === "none") {
-    backk.style.display = "block";
+  if (backk.style.display === "block") {
+    backk.style.display = "none";
   } else {
     backk.style.display = "block";
   }
 });
+
+
+console.log("SALOHIDDIN");
+
 
 // 1.
 // Kvadrat tomoni 5. Yuzini chiqaring.
